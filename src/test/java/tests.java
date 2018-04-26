@@ -6,6 +6,7 @@
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.notification.RunListener;
 
 /**
  * (类型功能说明描述)
@@ -25,5 +26,32 @@ public class tests {
     @Test
     public void lengthoflongestsubstring() {
         Assert.assertEquals(new LengthOfLongestSubstring().lengthOfLongestSubstring("abcabcbb"), 3);
+    }
+
+    @Test
+    public void findMedianSortedArrays() {
+        int[] nums1 = new int[]{1, 2, 3, 4, 5};
+        int[] nums2 = new int[]{};
+        double v = new FindMedianSortedArrays().findMedianSortedArrays(nums1, nums2);
+        System.out.println(v);
+        Assert.assertEquals(3, v, 0);
+
+//        nums1 = new int[]{1, 2};
+//        nums2 = new int[]{3, 4};
+//        v = new FindMedianSortedArrays().findMedianSortedArrays(nums1, nums2);
+//        Assert.assertEquals(v, 2.5, 0);
+//        System.out.println(v);
+    }
+
+    @Test
+    public void LongestPalindrome() {
+        Assert.assertEquals("bcdcb", new LongestPalindrome().longestPalindrome("abcdcbe"));
+        Assert.assertEquals("a", new LongestPalindrome().longestPalindrome("a"));
+        Assert.assertEquals("a", new LongestPalindrome().longestPalindrome("ab"));
+        Assert.assertEquals("abcdefgfedcba", new LongestPalindrome().longestPalindrome("abcdefgfedcba"));
+        Assert.assertEquals("", new LongestPalindrome().longestPalindrome(""));
+        Assert.assertEquals("bb", new LongestPalindrome().longestPalindrome("bb"));
+        Assert.assertEquals("bb", new LongestPalindrome().longestPalindrome("cbbd"));
+        Assert.assertEquals("cc", new LongestPalindrome().longestPalindrome("ccd"));
     }
 }
