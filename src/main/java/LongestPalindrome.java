@@ -4,7 +4,12 @@
  * Copyrights (C) 2018保留所有权利
  */
 
+import com.sun.deploy.util.StringUtils;
 import jdk.nashorn.internal.ir.ReturnNode;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * (类型功能说明描述)
@@ -21,59 +26,41 @@ import jdk.nashorn.internal.ir.ReturnNode;
  * @since JDK1.7
  */
 public class LongestPalindrome {
+    /*
+    给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为1000。
+     */
     public String longestPalindrome(String s) {
-        char[] chars = s.toCharArray();
-        if (chars.length <= 1) {
+        if (s == null || s.trim().isEmpty()){
             return s;
         }
-        if (chars.length == 2) {
-            if (chars[0] == chars[1]) {
-                return s;
-            }
-            return s.substring(0, 1);
-        }
-        int ms = 0;
-        int me = 0;
-        for (int i = 1; i < chars.length - 1; i++) {
-            int min = Math.min(i + 1, chars.length - i);
-            for (int j = 1; j < min; j++) {
-                if (chars[i - j] != chars[i + j]) {
-                    //not equal stop
-                    if ((j - 1) * 2 + 1 > (me - ms + 1)) {
-                        me = i + j - 1;
-                        ms = i - j + 1;
-                    }
-                    break;
-                }
-                if (j == min - 1) {
-                    if (j * 2 + 1 > (me - ms + 1)) {
-                        me = i + j;
-                        ms = i - j;
-                    }
-                }
-            }
-        }
 
-        for (int i = 0; i < chars.length - 1; i++) {
-            int min = Math.min(i + 1, chars.length - i);
-            for (int j = 1; j < min; j++) {
-                if (chars[i - j + 1] != chars[i + j]) {
-                    //not equal stop
-                    if ((j - 1) * 2 > (me - ms + 1)) {
-                        me = i + j - 1;
-                        ms = i - j + 2;
-                    }
-                    break;
+        //动态规划算法
+        char[] chars = s.toCharArray();
+        int n = chars.length;
+        int start = 0;
+        int maxlength = 1;
+        boolean[][] dp = new boolean[n][n];
+        //fill false
+        for (int i = 0; i < dp.length; i++) {
+            for (int j = 0; j < dp[i].length; j++) {
+                dp[i][j] = false;
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
+                if (i - j < 2) {
+                    dp[j][i] = (chars[i] == chars[j]);
+                } else {
+                    dp[j][i] = dp[j + 1][i - 1] && chars[i] == chars[j];
                 }
-                if (j == min - 1) {
-                    if (j * 2 > (me - ms + 1)) {
-                        me = i + j;
-                        ms = i - j + 1;
-                    }
+
+                if (dp[j][i] && maxlength < (i - j + 1)) {
+                    maxlength = i - j + 1;
+                    start = j;
                 }
             }
         }
+        return s.substring(start,start + maxlength );
 
-        return s.substring(ms, me + 1);
     }
 }
