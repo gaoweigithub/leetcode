@@ -141,7 +141,17 @@ public class OrderPrint {
 
         tree.print();
     }
-
+    public String replaceSpace(StringBuffer str) {
+        char[] chars = str.toString().toCharArray();
+        for(int i = 0; i<chars.length ; i++){
+            if(chars[i] == ' '){
+                str.append(chars[i]);
+            }else{
+                str.append("%20");
+            }
+        }
+        return str.toString();
+    }
     /**
      * 后序遍历 -- 非递归实现
      * @param tree

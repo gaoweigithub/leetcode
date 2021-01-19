@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92304928-8c16-4bad-929b-38fd6c0769fe" name="Default Changelist" comment="啊啊啊">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReversePrintLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bt/OrderPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bt/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bt/TreeNodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bt/OrderPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bt/OrderPrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +80,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tests.LongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,7 +131,9 @@
       <workItem from="1610790343423" duration="4062000" />
       <workItem from="1610806936124" duration="67000" />
       <workItem from="1610807018803" duration="7134000" />
-      <workItem from="1610816224561" duration="1565000" />
+      <workItem from="1610816224561" duration="2292000" />
+      <workItem from="1610878195421" duration="2569000" />
+      <workItem from="1611071145394" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="啊啊啊">
       <created>1610730917392</created>
@@ -133,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610730917392</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="啊啊啊">
+      <created>1610818074464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610818074464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +176,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/bt/OrderPrint.java</url>
-          <line>153</line>
+          <line>163</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
