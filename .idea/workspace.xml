@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92304928-8c16-4bad-929b-38fd6c0769fe" name="Default Changelist" comment="啊啊啊">
+      <change afterPath="$PROJECT_DIR$/src/main/java/位运算/Test移位.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/斐波拉契.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bt/OrderPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bt/OrderPrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +53,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.OrderPrint">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AddTwoNumbers" />
+  <component name="RunManager" selected="Application.Test移位">
+    <configuration name="斐波拉契" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="斐波拉契" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,6 +77,19 @@
     <configuration name="ReversePrintLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReversePrintLink" />
       <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test移位" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="位运算.Test移位" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="位运算.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,10 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test移位" />
+        <item itemvalue="Application.斐波拉契" />
         <item itemvalue="Application.OrderPrint" />
         <item itemvalue="Application.ReversePrintLink" />
         <item itemvalue="JUnit.tests.LongestPalindrome" />
-        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +149,9 @@
       <workItem from="1610816224561" duration="2292000" />
       <workItem from="1610878195421" duration="2569000" />
       <workItem from="1611071145394" duration="619000" />
+      <workItem from="1611156637912" duration="1222000" />
+      <workItem from="1611587502606" duration="595000" />
+      <workItem from="1611678172867" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="啊啊啊">
       <created>1610730917392</created>
