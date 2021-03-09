@@ -1,6 +1,6 @@
 package 最小k数;
 
-public class 快排非递归 {
+public class 快排实现topk {
 
     public static void main(String[] args) {
 
