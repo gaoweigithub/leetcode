@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92304928-8c16-4bad-929b-38fd6c0769fe" name="Default Changelist" comment="啊啊啊">
-      <change afterPath="$PROJECT_DIR$/src/main/java/位运算/Test移位.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/斐波拉契.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/最小k数/快排递归.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/最小k数/快排非递归.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/矩阵顺时针/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +56,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Test移位">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="最小k数" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.快排非递归">
     <configuration name="斐波拉契" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="斐波拉契" />
       <module name="leetcode" />
@@ -61,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bt.OrderPrint" />
+    <configuration name="快排递归" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="最小k数.快排递归" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bt.*" />
+          <option name="PATTERN" value="最小k数.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,9 +82,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversePrintLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReversePrintLink" />
+    <configuration name="快排非递归" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="最小k数.快排非递归" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="最小k数.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="矩阵顺时针.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="矩阵顺时针.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,23 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests.LongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests" />
-      <option name="METHOD_NAME" value="LongestPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.快排非递归" />
+        <item itemvalue="Application.快排递归" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Test移位" />
         <item itemvalue="Application.斐波拉契" />
-        <item itemvalue="Application.OrderPrint" />
-        <item itemvalue="Application.ReversePrintLink" />
-        <item itemvalue="JUnit.tests.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +169,13 @@
       <workItem from="1611156637912" duration="1222000" />
       <workItem from="1611587502606" duration="595000" />
       <workItem from="1611678172867" duration="2887000" />
+      <workItem from="1614001565636" duration="7000" />
+      <workItem from="1614001627862" duration="6000" />
+      <workItem from="1614001822767" duration="372000" />
+      <workItem from="1614002259816" duration="256000" />
+      <workItem from="1614789344811" duration="809000" />
+      <workItem from="1615216941625" duration="2228000" />
+      <workItem from="1615306570114" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="啊啊啊">
       <created>1610730917392</created>
@@ -196,6 +220,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/bt/OrderPrint.java</url>
           <line>163</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/矩阵顺时针/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/矩阵顺时针/Solution.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/矩阵顺时针/Solution.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
