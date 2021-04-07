@@ -8,6 +8,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.notification.RunListener;
 
+import java.util.PriorityQueue;
+
 /**
  * (类型功能说明描述)
  *
@@ -25,7 +27,23 @@ import org.junit.runner.notification.RunListener;
 public class tests {
     @Test
     public void lengthoflongestsubstring() {
-        Assert.assertEquals(new LengthOfLongestSubstring().lengthOfLongestSubstring("abcabcbb"), 3);
+//        Assert.assertEquals(new LengthOfLongestSubstring().lengthOfLongestSubstring("abcabcbb"), 3);
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        queue.add(4);
+        queue.add(3);
+        queue.add(2);
+
+        System.out.println(queue);
+        queue.remove(1);
+        System.out.println(queue);
+        queue.remove(3);
+        System.out.println(queue);
+
+
+
     }
 
     @Test

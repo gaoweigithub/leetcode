@@ -1,4 +1,4 @@
-package 二叉树还原;
+package 二叉树.二叉树还原;
 
 public class Solution {
     public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
