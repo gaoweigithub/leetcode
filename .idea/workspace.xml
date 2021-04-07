@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92304928-8c16-4bad-929b-38fd6c0769fe" name="Default Changelist" comment="啊啊啊">
-      <change afterPath="$PROJECT_DIR$/src/main/java/丑数/笨方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/中序/循环中序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/中序/循环中序2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树深度/再写层次遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树深度/分治法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树深度/层次遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树深度/深度遍历方式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树深度/镜像二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树深度/镜像二叉树递归.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/序列化反序列化/前序遍历实现.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/序列化反序列化/层次遍历实现.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/二叉树/是否平衡二叉树/递归.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/字符串/第一个只出现一次的字符.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数据结构/堆栈/双栈实现队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/割绳子/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/割绳子/Solution动态规划.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/拼接最小数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/数据流的中位数/du堆解法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/数据流的中位数/插入排序发.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/滑动窗口/滑动窗口最大值.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/滑动窗口/滑动窗口最大值双端队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/矩阵/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/矩阵/机器人遍历问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/统计一个数字在升序数组中出现的次数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/数组/统计一个数字在升序数组中出现的次数2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/贪心/分饼干.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/贪心/区间排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/贪心/发糖.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/链表/第一个公共节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/链表/第一个公共节点双指针.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/二叉树还原/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树还原/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="92304928-8c16-4bad-929b-38fd6c0769fe" name="Default Changelist" comment="啊啊啊" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -418,6 +384,7 @@
       <workItem from="1617031968337" duration="1155000" />
       <workItem from="1617205374459" duration="1986000" />
       <workItem from="1617296177420" duration="606000" />
+      <workItem from="1617809457903" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="啊啊啊">
       <created>1610730917392</created>
@@ -454,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615308804837</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="啊啊啊">
+      <created>1617809477078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617809477078</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
