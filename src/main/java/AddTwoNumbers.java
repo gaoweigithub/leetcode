@@ -4,8 +4,6 @@
  * Copyrights (C) 2018保留所有权利
  */
 
-import sun.security.util.Length;
-
 /**
  * (类型功能说明描述)
  *
