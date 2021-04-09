@@ -1,4 +1,4 @@
-package 滑动窗口;
+package 玩转双指针;
 
 import java.util.Arrays;
 
